@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* 1. Menu Lateral Esquerdo */
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #24364f; /* Tom azul escuro da imagem */
+    color: #ffffff;
+    padding: 25px 20px;
+}
+
+nav h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.conteudo-principal {
+    margin-left: 220px; 
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #24364f;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+    font-size: 1rem;
+    z-index: 10;
+    border-left: 2px solid #1a283a; 
+}
+
+main {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+section {
+    background-color: #eff1f4; 
+    height: 380px;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+section h2 {
+    font-size: 1rem;
+    color: #333333;
+    font-weight: normal;
+}
